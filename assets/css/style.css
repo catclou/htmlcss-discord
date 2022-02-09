@@ -65,7 +65,34 @@ nav ul li a {
 
 /* general main rules */
 
+.macro {
+    height: 60vh;
+    border: 2px dotted green;
+    position: relative;
+}
 
+.content-image {
+    height: 100%;
+    background-color: white;
+    
+}
+
+.content-text {
+    height: 90%;
+    width: 30%;
+    border: 1px solid green;
+    margin: 15px 0 5px 0;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+}
+
+.blablabla {
+    font-size: 0.8em;
+}
 
 /* hero */
 
@@ -115,6 +142,15 @@ h2 {
 
 /* section 1 */
 
+.section-content {
+    width: 60%;
+    height: 80%;
+    border: 2px solid orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
 /* section 2 */
