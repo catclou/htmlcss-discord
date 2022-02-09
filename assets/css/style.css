@@ -155,7 +155,9 @@ h2 {
 
 /* section 2 */
 
-
+#float-right {
+    float: right;
+}
 
 /* section 3 */
 
