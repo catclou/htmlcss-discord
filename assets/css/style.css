@@ -1,0 +1,84 @@
+/* reset starts here */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* reset ends here */
+
+/* general rules */
+
+
+
+/* header */
+
+header {
+    height: 10vh;
+    border: 1px solid blue;
+    position: relative;
+}
+
+.top-container {
+    border: 1px solid red;
+    height: 80%;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    background-color: blue;
+    float: left;
+    padding: 5px;
+}
+
+nav {
+    float: left;
+    border: 1px solid purple;
+    padding: 13px;
+    margin: 0 10%;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 0 10px;
+}
+
+.login {
+    float: right;
+    border: 1px solid purple;
+    padding: 13px;
+}
+
+
+/* general main rules */
+
+
+
+/* hero */
+
+
+
+/* section 1 */
+
+
+
+/* section 2 */
+
+
+
+/* section 3 */
+
+
+
+/* section 4 (biggest one) */
+
+
+
+/* footer */
